@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Esti Mate</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Esti Mate</h1>
+    <div class="form-wrapper">
+      <!-- Left Side -->
+      <div class="form-left">
+        <label for="classification">Classification</label>
+        <select id="classification">
+            <option>Residential Building</option>
+            <option>Commercial Mall</option>
+            <option>Mosque</option>
+            <option>Church</option>
+            <option>School</option>
+            <option>University</option>
+            <option>Hospital</option>
+            <option>Hotel</option>
+            <option>Office Tower</option>
+            <option>Government Building</option>
+            <option>Warehouse</option>
+            <option>Factory</option>
+            <option>Shopping Center</option>
+            <option>Mixed-Use Building</option>
+            <option>Airport Terminal</option>
+            <option>Sports Facility</option>
+            <option>Convention Center</option>
+            <option>Residential Villa</option>
+          </select>
+          
+
+        
+
+        <label for="area">Total Area (m²)</label>
+        <input type="number" id="area" placeholder="Enter total area">
+
+        <label for="location">Location</label>
+        <select id="location">
+            <option>Cairo</option>
+            <option>Giza</option>
+            <option>Alexandria</option>
+            <option>Port Said</option>
+            <option>Suez</option>
+            <option>Luxor</option>
+            <option>Aswan</option>
+            <option>Minya</option>
+            <option>Qena</option>
+            <option>Sohag</option>
+            <option>Assiut</option>
+            <option>Red Sea</option>
+            <option>South Sinai</option>
+            <option>North Sinai</option>
+            <option>New Valley</option>
+            <option>Matrouh</option>
+            <option>Beheira</option>
+            <option>Kafr El-Sheikh</option>
+            <option>Gharbia</option>
+            <option>Monufia</option>
+            <option>Dakahlia</option>
+            <option>Sharqia</option>
+            <option>Qalyubia</option>
+            <option>Beni Suef</option>
+            <option>Fayoum</option>
+            <option>Damietta</option>
+            <option>Ismailia</option>
+            <option>Heliopolis</option>
+            <option>Ain Shams</option>
+          </select>
+          
+
+        <label for="description">Description</label>
+        <textarea id="description" placeholder="Describe the project..."></textarea>
+
+        <button type="button" id="generateBtn">Generate</button>
+      </div>
+
+      <!-- Right Side -->
+<div class="form-right">
+    <label for="similarity">Similarity</label>
+    <input type="text" id="similarity" placeholder="Auto-generated" readonly>
+  
+    <label for="junior">Total H for Junior</label>
+    <input type="number" id="junior" placeholder="Auto-generated" readonly>
+  
+    <label for="senior">Total H for Senior</label>
+    <input type="number" id="senior" placeholder="Auto-generated" readonly>
+  </div>
+  
+  <!-- Generate Button -->
+
+  
+
+  <script src="script.js"></script>
+</body>
+</html>
